@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #fff url(/images/fundo.png) repeat-x;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    /*border: 1px solid red;*/
+    padding-top: 25px;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -3000px;
+}
+
+/*Navegação*/
+
+#topo ul{
+    background-color: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.2em;
+    line-height: 2.1em;
+    color: #fff;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+#selec{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo{
+    background: #f5f5f5;
+    margin-top: 60px;
+}
+
+#tres-colunas #primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 5px;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background: #fff url(../images/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+    transition: .4s;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px gray solid;
+    margin-bottom: 0.2em;
+}
+
+input.submit{
+    width: 100px;
+    color: #fff;
+    background-color: #b10333;
+    border: transparent;
+    padding: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+img{
+    border: 2px solid #bfbfbf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1em;
+    padding: 3px;
+    background: #b10333;
+    color: #fff;
+}
+
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
